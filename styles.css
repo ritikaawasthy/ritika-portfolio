@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+body{
+  font-family: 'Philosopher', sans-serif;
+}
+/** Container **/
+
+.container{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
