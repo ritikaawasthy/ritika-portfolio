@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
 
-body{
-  font-family: 'Philosopher', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap');
 
 
@@ -177,18 +174,12 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
-/** Container **/
 
-.container{
-  padding-left: 1rem;
-  padding-right: 1rem;
 /** projects **/
 .showcase-list {
     padding: 2rem;
 }
 
-:root{
-  --Primary-color: red;
 /** blogs **/
 .showcase-blog {
     padding-bottom: 6rem;

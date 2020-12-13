@@ -3,96 +3,72 @@
   <head>
     <meta charset="utf-8">
     <title>Ritika's Components Library </title>
+    <title>Home | RitikaAwasthy</title>
+    <link href="styles.css" rel="stylesheet"/>
   </head>
   <body>
-    <h1>This is ritiks's component library</h1>
-    <hr> </hr>
 
-    <h2>@typography</h2>
-    <h1>This is the biggest text</h1>
-    <h2>This is the second biggest text</h2>
-    <p>This is the basic text for paragraphs</p>
-    <small>This is a really small text</small>
-    <hr> </hr>
-
-    <h2>@containers</h2>
-    <h3>Fluid container</h3>
-    <p>It will go till the end of the page</p>
-    <h3>Center container</h3>
-    <p>This is a center container ir will go till the given width and center </p>
-    <hr></hr>
-
-    <h2>@links</h3>
-    <a href="/">Primry Link</a>
-    <a href="/">Secondary Link</a>
-    <hr> </hr>
-
-    <h2>@lists</h3>
-    <h3>Unordered List</h3>
-    <ul>
-         <li> Item one</li>
-         <li>Item two</li>
-         <li>Item three</li>
-    </ul>
-
-    <h3>Unordered Inline list</h3>
-    <ul>
-         <li>Inline Item one</li>
-         <li>Inline Item two</li>
-         <li>Inline Item three</li>
-    </ul>
-    <h3>Reverse order list</h3>
-    <ol>
-      <li>One </li>
-      <li>Two</li>
-      <li>three</li>
-    </ol>
-    <hr> </hr>
-
-    <h2>@Nav</h2>
-    <nav>
-      <div>iAmBrand</div>
-      <ul>
-        <li>
-          <a href="/">Home</a>
+    <nav class="navigation container">
+      <div class="nav-brand">IAMDEVELOPER</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/"> Home</a>
         </li>
-        <li>
-          <a href  ="/">Products</a>
+        <li class="list-item-inline">
+          <a class="link"  href  ="/">Products</a>
         </li>
-        <li>
-          <a href="/">About</a>
+        <li class="list-item-inline">
+          <a class="link" href="/">About</a>
         </li>
       </ul>
     </nav>
 
-    <hr></hr>
-<header>
-<h2> Header</h2>
-   <img src="images/Logo.svg"/>
-   <img src="https://i.ytimg.com/vi/_KpqqAUHcpw/maxresdefault.jpg"/>
-   <p> Hi i am a cat developer </p>
-</header>
+    <header class="hero" >>
+       <img class="hero-img" src="images/proudCoder.svg"/>
+    <!--   <img src="https://i.ytimg.com/vi/_KpqqAUHcpw/maxresdefault.jpg"/> -->
+        <h1 class="hero-heading">I am a <span class="heading-inverted"> web developer </span> </h1>
+    </header>
 
-<h2>@sections</h2>
-<section>
-<h3>Fluid section</h3>
-<p>It will go ened to end with some margin</p>
-</section>
-<section>
-   <h3>Off white <section></h3>
-     <p>this will have grey background</p>
+    <section class="section ow">
+      <div class="container">
+       <h3>Technologies<section></h3>
+         <p>I am familiar with Javascript, HTML,CSS, ReactJS and Web Hosting also i have experience in using machine learning, Python, C++ and Flask</p>
+       </div>
+       </section>
 
-   </section>
-   <hr></hr>
+       <section class="section">
+         <div class="container">
+       <h3>Projects</h3>
+       <p>I like to showcase my work hence you can see my projects here</p>
+      <a class= "link link-primary " href="projects.html">BROWSE </a>
+       </div>
+       </section>
 
-   <footer>
-     <h2>@footer</h2>
-     <div>Some small heading</div>
-     <ul>
-       <li>section 1</li>
-       <li>section2</li>
-     </ul>
-   </footer>
+       <section class="section ow">
+         <div class="container">
+          <h3>Blogs</h3>
+            <p>I am also working on some interesting blogs which includes technical and non-technical work, I like to document my journey of writing</p>
+            <a class= "link link-secondary" href="blogs.html">READ</a>
+          </div>
+          </section>
+
+             <footer class="footer">
+               <div class="footer-header">You can find me here</div>
+               <ul class="social-links list-non-bullet">
+                 <li class="list-item-inline" >
+                   <a class="link" href="https://github.com/ritikaawasthy" >
+                     GitHub
+                     </li>
+                 <li class="list-item-inline">
+                   <a class="link" href ="https://www.linkedin.com/in/ritika-awasthy-242984155/" >
+                      Linkden
+                </li>
+                <li class="list-item-inline">
+                  <a class="link" href ="https://www.instagram.com/ritika.awasthy/" >
+                      Instagram
+               </li>
+               </ul>
+             </footer>
 
 
   </body>
