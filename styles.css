@@ -26,7 +26,7 @@ hr {
 
 /** container **/
 .container {
-    padding: 0rem 1rem;
+    padding: 0rem 4rem;
 }
 
 .container-center {
@@ -45,7 +45,6 @@ hr {
     background-color: var(--off-white);
     border-radius: 0.5rem;
     color: var(--primary-color);
-    display: block;
     max-width: 90px;
     margin: 0.5rem 0rem 0.5rem 0.5rem;
     text-align: center;
@@ -57,12 +56,20 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     background-color: var(--primary-color);
-    display: block;
     max-width: 90px;
-    margin: 0.5rem 0rem 0.5rem 0.5rem;
     text-align: center;
 }
 
+.link-bordered {
+    background-color: var(--off-white);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    max-width: 90px;
+    margin: 0.5rem 0rem 0.5rem 0.5rem;
+    text-align: center;
+
+}
 /** look into BEM naming convention for CSS **/
 
 /** lists **/
@@ -183,4 +190,10 @@ hr {
 /** blogs **/
 .showcase-blog {
     padding-bottom: 6rem;
+}
+
+.inline_button{
+  display: inline;
+
+
 }
