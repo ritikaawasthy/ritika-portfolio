@@ -197,3 +197,27 @@ hr {
 
 
 }
+
+.blog{
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.code{
+  background-color: white;
+  box-shadow: 3px 3px var(--dark-gray);
+  font-size: 20px;
+  padding: 4rem;
+  margin: 1rem 7rem 1rem 7rem;
+
+}
+.bold{
+  font-weight: bolder;
+}
+
+.intro{
+  margin: 0 8rem 0 8rem;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.6;
+}

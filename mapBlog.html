@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>projects</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <nav class="navigation container">
+    <div class="nav-brand">IAMDEVELOPER</div>
+    <ul class="list-non-bullet nav-pills">
+      <li class="list-item-inline">
+        <a class="link" href="index.html"> Home</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link link-active" href="projects.html">Projects</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="blogs.html">Blogs</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="internship.html">Internship Projects</a>
+      </li>
+    </ul>
+  </nav>
+
+<div class="container">
+  <h1 style="text-align:center;">How to use JavaScript to visualise custom maps</h1>
+
+  <img src="images/map.png" alt="" height='30%' width='100%'>
+
+  <section>
+  <p class="blog">  In our day to day life, maps are everywhere. From finding out an isolated restaurant to tracking your Zomato order you need maps for sure.
+   Applications of maps are not limited to just navigation they are also one of the best ways to visualize complex data.
+   <br><br>
+There are numerous APIs and libraries you can find on the internet,
+but one problem that arises with most of them is that they provide very limited options for customisation.
+I'm going to introduce MapBox GL JS, It is a client-side JavaScript library for building web maps and web applications. You can use Mapbox GL JS to display Mapbox maps in a web browser or client, add user interactivity, and customize the map experience.
+<br><br>
+Why MapBox ?
+<br><br>
+It is pretty easy to implement very complex tasks with it, also it provides numerous options for
+customisation which is extremely useful to build interactive maps .
+Now, building worlds maps or country maps is pretty easy, but what if you have a
+specific zone or a district?
+<br><br>
+Then all you would need is to have a GeoJson file of the area you need to visualise.
+<br><br>
+What is GeoJson?
+<br><br>
+GeoJSON is a way of representing geographic data. It is pretty similar to Json. It provides a way to add meaning to coordinates of some specific area.
+Lets start with the implementation, i would suggest you look at my jsFiddle <a href="https://jsfiddle.net/ritikaawasthy/b7ko59ys/71/">Link</a> for a better understanding of coding this.
+<br><br>
+Here is a political party-wise representation of winners in UP Ac elections using heat map i have exported GeoJson data of all districts of Uttar Pradesh as it is not available as default.
+Hereby using map.addSource i have added the source and ids of my data.  to make it more interactive i have colour-coded each party and set boundaries using addLayer function.
+</p>
+</div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-header">You can find me here</div>
+    <ul class="social-links list-non-bullet">
+      <li class="list-item-inline">
+        <a class="link" href="https://github.com/ritikaawasthy">
+          GitHub
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://www.linkedin.com/in/ritika-awasthy-242984155/">
+          Linkden
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://www.instagram.com/ritika.awasthy/">
+          Instagram
+      </li>
+    </ul>
+  </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>projects</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+
+    <nav class="navigation container">
+      <div class="nav-brand">IAMDEVELOPER</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="index.html"> Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active"  href  ="projects.html">Projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="blogs.html">Blogs</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="internship.html">Internship Projects</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h1 style="text-align:center">Build your own summariser</h1>
+      <div style="padding:50px">
+      <img  width="100%"  src="https://lh3.googleusercontent.com/qoJb3KLH4nBBwHuQIc_TWSyZxH8-C9WloJYPQU4WXt2A_s2vX-cUC6LP80W4Ehn_qZBT" alt="">
+     <div>
+      <section>
+        <p class="blog">
+
+        Building a summarizer might seem like a very hectic task that would require you to have a
+        mastery in Machine Learning , NLP and deep learning but thanks to our dev community
+        for constantly making libraries and wrappers for others to use these extremly complex
+        algorithmis so easily.
+        <br>
+
+        The implementation of this  summarizer is done in python so its as easy to understand as english.
+        So today we are using a library called BERT Extractive summariser <a href="https://github.com/dmmiller612/bert-extractive-summarizer">Link</a>
+        but first lets understand what is the difference between Extractive and Abstractive summarizer.
+
+        <br>
+
+        <span class="bold">Extractive summarizers: </span>
+        Instead of computer re-writing the whole summary, extractive summarizers pick out the important
+        points from the article and alter them to form meaningful summaries. Pros of this are
+        the summaries generated match alot with human written formats.
+        <br>
+        <span class="bold">Abstractive summarizers: </span>
+        In these usually computer re-writes the entire summary because of which the tone and
+        writing style you text might get totally changed.
+
+        <br>
+
+        Now, coming to coding part : <br>
+        pip install bert-extractive-summariser
+        <br>
+        you will need to install other libraries like spacy , trasformers and neuralcoref
+        <br>
+        instantiate the model
+
+        from summarizer import Summarizer
+        </p>
+        <div class="code">
+      from summarizer import Summarizer <br>
+      body = 'Text body that you want to summarize with BERT'<br>
+      model = Summarizer()<br>
+      result = model(body, ratio=0.2)  # Specified with ratio<br>
+      result = model(body, num_sentences=3)  # Will return 3 sentences<br>
+      </div>
+
+      <p class="blog">
+         You can explore more options like num_sentences which is responsible for deciding the length of you summary, but if you set too less number sentences then you might not end up with a very meaningful summary.
+        <br>
+        You can checkout the live link <a href="https://shortner.ascian.in/">here</a> this is implemented in Django. <br>
+         You don't really need alot of knowledge in terms of ML to built this simple yet useful app.
+      </p>
+
+
+
+      </section>
+
+    </div>
+
+  <footer class="footer">
+    <div class="footer-header">You can find me here</div>
+    <ul class="social-links list-non-bullet">
+      <li class="list-item-inline">
+        <a class="link" href="https://github.com/ritikaawasthy">
+          GitHub
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://www.linkedin.com/in/ritika-awasthy-242984155/">
+          Linkden
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://www.instagram.com/ritika.awasthy/">
+          Instagram
+      </li>
+    </ul>
+  </footer>
+
+
+</body>
+
+</html>
